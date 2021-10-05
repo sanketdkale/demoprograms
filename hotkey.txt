@@ -1,0 +1,24 @@
+import pyautogui
+pyautogui.sleep(5)
+pyautogui.typewrite(' ')
+pyautogui.sleep(20)
+pyautogui.hotkey('ctrl','a')
+pyautogui.hotkey('ctrl','c')
+pyautogui.hotkey('ctrl','s')
+pyautogui.sleep(10)
+pyautogui.hotkey('ctrl','v')
+
+
+import pyautogui
+pyautogui.sleep(5)
+pyautogui.write('hello')
+pyautogui.sleep(5)
+pyautogui.hotkey('ctrl','a')
+pyautogui.sleep(5)
+pyautogui.hotkey('ctrl','n')
+pyautogui.sleep(5)
+pyautogui.hotkey('ctrl','c')
+pyautogui.sleep(5)
+pyautogui.hotkey('ctrl','v')
+pyautogui.sleep(5)
+pyautogui.write('Hello')
